@@ -1,0 +1,12 @@
+directories:
+  output: dist_electron
+  buildResources: build
+appId: com.yourcompany.votacions
+productName: VotacionsApp
+win:
+  target: nsis
+files:
+  - filter:
+      - dist/**/*
+      - electron-main.cjs
+electronVersion: 39.2.7
